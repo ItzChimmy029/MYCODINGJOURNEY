@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Year 3 Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        h3 {
+            line-height: 1.2;
+            color: #333;
+            text-align: center;
+            margin: 5px 0;
+        }
+
+        .course-table {
+            width: 100%;
+            max-width: 1200px;
+            border-collapse: collapse;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            background: white;
+            margin-top: 20px;
+        }
+
+        .course-table thead {
+            background-color: #4CAF50;
+            color: #fff;
+        }
+
+        .course-table th, .course-table td {
+            padding: 12px 15px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        .course-table th {
+            text-transform: uppercase;
+        }
+
+        .course-table tbody tr {
+            border-bottom: 1px solid #ddd;
+            transition: background 0.3s;
+        }
+
+        .course-table tbody tr:hover {
+            background-color: #f1f9ff;
+        }
+
+        .course-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .course-table td {
+            color: #333;
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 768px) {
+            .course-table thead {
+                display: none;
+            }
+
+            .course-table tbody, .course-table tr {
+                display: block;
+            }
+
+            .course-table tr {
+                margin-bottom: 15px;
+                box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+                overflow: hidden;
+            }
+
+            .course-table td {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+                text-align: left;
+                position: relative;
+                font-size: 13px;
+            }
+
+            .course-table td::before {
+                content: attr(data-label);
+                font-weight: bold;
+                text-transform: uppercase;
+                color: #4CAF50;
+                flex: 1;
+                margin-right: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h3>COAL CITY UNIVERSITY, ENUGU</h3>
+    <h3>DEPARTMENT OF MATHEMATICS AND COMPUTER SCIENCE</h3>
+    <h3>COURSE ALLOCATION FOR FIRST SEMESTER 2024/25 ACADEMIC SESSION FOR YEAR 3 STUDENTS</h3>
+    <table class="course-table">
+        <thead>
+            <tr>
+                <th>S/N</th>
+                <th>Course Code</th>
+                <th>Course Title</th>
+                <th>Units</th>
+                <th>Status</th>
+                <th>Lecturer</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="S/N">1</td>
+                <td data-label="Course Code">CSC 301</td>
+                <td data-label="Course Title">Project and Proposal Writing</td>
+                <td data-label="Units">3</td>
+                <td data-label="Status">C</td>
+                <td data-label="Lecturer">Dr. Michael Onyema Edeh</td>
+                <td data-label="Email">michael.edeh@ccu.edu.ng</td>
+                <td data-label="Phone Number">07039009048</td>
+            </tr>
+            <tr>
+                <td data-label="S/N">2</td>
+                <td data-label="Course Code">CSC 331</td>
+                <td data-label="Course Title">Operating System</td>
+                <td data-label="Units">3</td>
+                <td data-label="Status">C</td>
+                <td data-label="Lecturer">Dr. Michael Onyema Edeh</td>
+                <td data-label="Email">michael.edeh@ccu.edu.ng</td>
+                <td data-label="Phone Number">07039009048</td>
+            </tr>
+            <tr>
+                <td data-label="S/N">3</td>
+                <td data-label="Course Code">CSC 333</td>
+                <td data-label="Course Title">System Analysis & Design</td>
+                <td data-label="Units">2</td>
+                <td data-label="Status">C</td>
+                <td data-label="Lecturer">Dr. Michael Onyema Edeh</td>
+                <td data-label="Email">michael.edeh@ccu.edu.ng</td>
+                <td data-label="Phone Number">07039009048</td>
+            </tr>
+            <tr>
+                <td data-label="S/N">4</td>
+                <td data-label="Course Code">CSC 335</td>
+                <td data-label="Course Title">Survey of Programming Languages</td>
+                <td data-label="Units">2</td>
+                <td data-label="Status">C</td>
+                <td data-label="Lecturer">Dr. Franklin Okebanama</td>
+                <td data-label="Email">NIL</td>
+                <td data-label="Phone Number">07047149438</td>
+            </tr>
+            <tr>
+                <td data-label="S/N">5</td>
+                <td data-label="Course Code">CSC 337</td>
+                <td data-label="Course Title">Object Oriented Programming</td>
+                <td data-label="Units">2</td>
+                <td data-label="Status">C</td>
+                <td data-label="Lecturer">Mr. Everistus Orji</td>
+                <td data-label="Email">NIL</td>
+                <td data-label="Phone Number">08033048120</td>
+            </tr>
+            <tr>
+                <td data-label="S/N">6</td>
+                <td data-label="Course Code">CSC 307</td>
+                <td data-label="Course Title">Data Management I</td>
+                <td data-label="Units">2</td>
+                <td data-label="Status">C</td>
+                <td data-label="Lecturer">Mr. Everistus Orji</td>
+                <td data-label="Email">NIL</td>
+                <td data-label="Phone Number">08033048120</td>
+            </tr>
+            <tr>
+                <td data-label="S/N">7</td>
+                <td data-label="Course Code">CSC 311</td>
+                <td data-label="Course Title">Switching Algebra & Discrete Structure</td>
+                <td data-label="Units">2</td>
+                <td data-label="Status">C</td>
+                <td data-label="Lecturer">Mr. Everistus Orji</td>
+                <td data-label="Email">NIL</td>
+                <td data-label="Phone Number">08033048120</td>
+            </tr>
+            <tr>
+                <td data-label="S/N">8</td>
+                <td data-label="Course Code">CSC 341</td>
+                <td data-label="Course Title">Computer Architecture & Organization</td>
+                <td data-label="Units">2</td>
+                <td data-label="Status">C</td>
+                <td data-label="Lecturer">Dr. Chidi Nwafor</td>
+                <td data-label="Email">NIL</td>
+                <td data-label="Phone Number">NIL</td>
+            </tr>
+            <tr>
+                <td data-label="S/N">9</td>
+                <td data-label="Course Code">CSC 351</td>
+                <td data-label="Course Title">Laboratory of System Design</td>
+                <td data-label="Units">2</td>
+                <td data-label="Status">C</td>
+                <td data-label="Lecturer">Dr. Chika Nwafor</td>
+                <td data-label="Email">NIL</td>
+                <td data-label="Phone Number">07060444206</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

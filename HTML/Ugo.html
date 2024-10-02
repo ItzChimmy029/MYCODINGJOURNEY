@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower and Heart Surprise</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #f8f8f8;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .message {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            color: #ff69b4;
+            font-weight: bold;
+            z-index: 10;
+            animation: fadeIn 3s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .flower {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: url('https://www.pngitem.com/pimgs/m/18-182274_flower-png-flower-png-transparent-png.png') no-repeat center center;
+            background-size: cover;
+            z-index: 5;
+        }
+        .heart {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: url('https://www.pngitem.com/pimgs/m/167-1676691_heart-red-png-image-heart-red-png.png') no-repeat center center;
+            background-size: cover;
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">Surprise!</div>
+    <script>
+        function createElement(type, className) {
+            const element = document.createElement('div');
+            element.className = className;
+            document.body.appendChild(element);
+            return element;
+        }
+
+        function animateElement(element) {
+            const screenWidth = window.innerWidth;
+            const screenHeight = window.innerHeight;
+            const startX = Math.random() * screenWidth;
+            const startY = Math.random() * screenHeight;
+            const endX = Math.random() * screenWidth;
+            const endY = Math.random() * screenHeight;
+            const duration = Math.random() * 5 + 5; // Duration between 5 and 10 seconds
+
+            element.style.left = ${startX}px;
+            element.style.top = ${startY}px;
+            element.style.transition = all ${duration}s ease-in-out;
+
+            setTimeout(() => {
+                element.style.left = ${endX}px;
+                element.style.top = ${endY}px;
+                element.style.opacity = 0;
+            }, 100);
+        }
+
+        function createSurprise() {
+            for (let i = 0; i < 20; i++) {
+                const type = Math.random() > 0.5 ? 'flower' : 'heart';
+                const element = createElement('div', type);
+                animateElement(element);
+                setTimeout(() => {
+                    document.body.removeChild(element);
+                }, 10000); // Remove after animation
+            }
+        }
+
+        window.onload = () => {
+            createSurprise();
+        };
+    </script>
+</body>
+</html>

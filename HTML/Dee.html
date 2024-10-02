@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // Create a canvas element
+const canvas = document.createElement('canvas');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+document.body.appendChild(canvas);
+
+// Get the canvas context
+const ctx = canvas.getContext('2d');
+
+// Set the canvas background
+ctx.fillStyle = '#f0f0f0';
+ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+// Function to draw a heart
+function drawHeart(x, y) {
+  ctx.beginPath();
+  ctx.moveTo(x, y);
+  ctx.bezierCurveTo(x + 50, y - 50, x + 100, y + 50, x + 150, y);
+  ctx.bezierCurveTo(x + 100, y + 150, x + 50, y + 250, x, y + 200);
+  ctx.bezierCurveTo(x - 50, y + 250, x - 100, y + 150, x - 150, y);
+  ctx.bezierCurveTo(x - 100, y - 50, x - 50, y - 150, x, y);
+  ctx.fillStyle = '#ff69b4';
+  ctx.fill();
+}
+
+// Function to draw flowers
+function drawFlowers() {
+  for (let i = 0; i < 10; i++) {
+    const x = Math.random() * canvas.width;
+    const y = Math.random() * canvas.height;
+    ctx.fillStyle = `hsla(${Math.random() * 360}, 100%, 50%, 1)`;
+    ctx.beginPath();
+    ctx.arc(x, y, 20, 0, 2 * Math.PI);
+    ctx.fill();
+    ctx.fillStyle = '#fff';
+    ctx.beginPath();
+    ctx.arc(x, y, 10, 0, 2 * Math.PI);
+    ctx.fill();
+  }
+}
+
+// Animate the surprise
+function animate() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = '#f0f0f0';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  drawHeart(canvas.width / 2, canvas.height / 2);
+  drawFlowers();
+  requestAnimationFrame(animate);
+}
+
+// Start the animation
+animate();
+
+// Add a surprise message
+setTimeout(() => {
+  ctx.font = '48px Arial';
+  ctx.fillStyle = '#333';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText('Surprise!', canvas.width / 2, canvas.height / 2 - 100);
+}, 2000);
+</script>
+</html>

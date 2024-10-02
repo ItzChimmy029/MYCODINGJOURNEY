@@ -1,0 +1,51 @@
+/* #first{
+    border: 2px solid red;
+    padding: 20px 60px;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 80%;
+    height: auto;
+}
+
+#container{
+  display: flex;
+   background-color: aqua;
+
+   
+}
+
+
+div{
+    height: 50px;
+    width: 50px;
+}
+
+#first{
+    background-color: red;
+  
+
+#second{
+    background-color: blue;
+    
+    
+
+#third{
+
+    background-color: black;
+}
+    
+
+#fourth{
+   
+    background-color: orange;
+ 
+}
+
+#fifth{
+   
+    background-color: purple;
+   
