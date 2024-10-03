@@ -1,0 +1,772 @@
+Microsoft Windows [Version 10.0.22631.4169]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\justi>git config --global user.name Justice123
+
+C:\Users\justi>git config --global user.emil justicedalu07@gmail.com
+
+C:\Users\justi>cd Desktop\CODES
+
+C:\Users\justi\Desktop\CODES>git init
+Reinitialized existing Git repository in C:/Users/justi/Desktop/CODES/.git/
+
+C:\Users\justi\Desktop\CODES>git add .
+warning: in the working copy of 'CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/README-template.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/style-guide.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/README-template.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/style-guide.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/README-template.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/fonts/README.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/style-guide.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/README-template.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/style-guide.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/README-template.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/style-guide.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/README-template.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/style-guide.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/README-template.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/style-guide.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/README-template.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/fonts/README.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/icon-order-confirmed.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/data.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/style-guide.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/README-template.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/outfit/README.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/style-guide.md', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\justi\Desktop\CODES>git commit -m My first commit
+error: pathspec 'first' did not match any file(s) known to git
+error: pathspec 'commit' did not match any file(s) known to git
+
+C:\Users\justi\Desktop\CODES>git commit -m "My first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'justi@JUSTICE-PC.(none)')
+
+C:\Users\justi\Desktop\CODES>git config --global user.name "Justice123"
+
+C:\Users\justi\Desktop\CODES>git config --global user.email "justicedalu07@gmail.com"
+
+C:\Users\justi\Desktop\CODES>git commit -m "My first commit"
+[main (root-commit) 58364e8] My first commit
+ 658 files changed, 81196 insertions(+)
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master.zip
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/.gitignore
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/README-template.md
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/README.md
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/design/desktop-design-slide-1.jpg
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/design/desktop-design-slide-2.jpg
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/design/desktop-preview.jpg
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/design/mobile-design-slide-1.jpg
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/design/mobile-design-slide-2.jpg
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/images/favicon-32x32.png
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/images/icon-next.svg
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/images/icon-prev.svg
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/images/image-john.jpg
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/images/image-tanya.jpg
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/images/pattern-bg.svg
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/images/pattern-curve.svg
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/images/pattern-quotes.svg
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/index.html
+ create mode 100644 CODING PROJECTS/projects1/coding-bootcamp-testimonials-slider-master/coding-bootcamp-testimonials-slider-master/style-guide.md
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main.zip
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/.gitignore
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/README-template.md
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/README.md
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/design/active-states-basket-empty.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/design/active-states-basket-filled.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/design/active-states-lightbox.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/design/desktop-design-lightbox.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/design/desktop-design.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/design/desktop-preview.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/design/mobile-design-basket-empty.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/design/mobile-design-basket-filled.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/design/mobile-design.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/design/mobile-menu.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/favicon-32x32.png
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/icon-cart.svg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/icon-close.svg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/icon-delete.svg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/icon-menu.svg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/icon-minus.svg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/icon-next.svg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/icon-plus.svg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/icon-previous.svg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/image-avatar.png
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/image-product-1-thumbnail.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/image-product-1.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/image-product-2-thumbnail.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/image-product-2.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/image-product-3-thumbnail.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/image-product-3.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/image-product-4-thumbnail.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/image-product-4.jpg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/images/logo.svg
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/index.html
+ create mode 100644 CODING PROJECTS/projects1/ecommerce-product-page-main/ecommerce-product-page-main/style-guide.md
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main.zip
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/.gitignore
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/README-template.md
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/README.md
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/fonts/OFL.txt
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/fonts/README.txt
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/fonts/WorkSans-VariableFont_wght.ttf
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/fonts/static/WorkSans-Bold.ttf
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/fonts/static/WorkSans-Regular.ttf
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/fonts/static/WorkSans-SemiBold.ttf
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/images/background-pattern-desktop.svg
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/images/background-pattern-mobile.svg
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/images/favicon-32x32.png
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/images/icon-minus.svg
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/images/icon-plus.svg
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/assets/images/icon-star.svg
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/design/active-states.jpg
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/design/desktop-design.jpg
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/design/desktop-preview.jpg
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/design/mobile-design.jpg
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/index.html
+ create mode 100644 CODING PROJECTS/projects1/faq-accordion-main/faq-accordion-main/style-guide.md
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main.zip
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/.gitignore
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/README-template.md
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/README.md
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/design/active-states.jpg
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/design/complete-state-desktop.jpg
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/design/complete-state-mobile.jpg
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/design/desktop-design.jpg
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/design/desktop-preview.jpg
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/design/mobile-design.jpg
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/images/bg-card-back.png
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/images/bg-card-front.png
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/images/bg-main-desktop.png
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/images/bg-main-mobile.png
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/images/card-logo.svg
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/images/favicon-32x32.png
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/images/icon-complete.svg
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/index.html
+ create mode 100644 CODING PROJECTS/projects1/interactive-card-details-form-main/interactive-card-details-form-main/style-guide.md
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main.zip
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/.gitignore
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/README-template.md
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/README.md
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/design/active-states.jpg
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/design/desktop-design.jpg
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/design/desktop-preview.jpg
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/design/desktop-thank-you-state.jpg
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/design/mobile-design.jpg
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/design/mobile-thank-you-state.jpg
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/images/favicon-32x32.png
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/images/icon-star.svg
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/images/illustration-thank-you.svg
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/index.html
+ create mode 100644 CODING PROJECTS/projects1/interactive-rating-component-main/interactive-rating-component-main/style-guide.md
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main.zip
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/.gitignore
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/README-template.md
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/README.md
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/design/active-states.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/design/desktop-design.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/design/desktop-preview.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/design/mobile-design.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/design/mobile-menu.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-curiosity.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-deep-earth.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-fisheye.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-from-above.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-grid.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-hero.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-interactive.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-night-arcade.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-pocket-borealis.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/desktop/image-soccer-team.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/favicon-32x32.png
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/icon-close.svg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/icon-facebook.svg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/icon-hamburger.svg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/icon-instagram.svg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/icon-pinterest.svg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/icon-twitter.svg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/logo.svg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/mobile/image-curiosity.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/mobile/image-deep-earth.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/mobile/image-fisheye.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/mobile/image-from-above.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/mobile/image-grid.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/mobile/image-hero.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/mobile/image-interactive.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/mobile/image-night-arcade.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/mobile/image-pocket-borealis.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/images/mobile/image-soccer-team.jpg
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/index.html
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/loopstudios-landing-page-main/style-guide.md
+ create mode 100644 CODING PROJECTS/projects1/loopstudios-landing-page-main/project-tracking-intro-component-master.zip
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master.zip
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/.gitignore
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/README-template.md
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/README.md
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/design/active-states.jpg
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/design/desktop-design-annually.jpg
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/design/desktop-design-monthly.jpg
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/design/desktop-preview.jpg
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/design/mobile-design-annually.jpg
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/design/mobile-design-monthly.jpg
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/images/bg-bottom.svg
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/images/bg-top.svg
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/images/favicon-32x32.png
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/index.html
+ create mode 100644 CODING PROJECTS/projects1/pricing-component-with-toggle-master/pricing-component-with-toggle-master/style-guide.md
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main.zip
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/.gitignore
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/README-template.md
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/README.md
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/fonts/OFL.txt
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/fonts/README.txt
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/fonts/RedHatText-Italic-VariableFont_wght.ttf
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/fonts/RedHatText-VariableFont_wght.ttf
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/fonts/static/RedHatText-Bold.ttf
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/fonts/static/RedHatText-Regular.ttf
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/fonts/static/RedHatText-SemiBold.ttf
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/favicon-32x32.png
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/icon-add-to-cart.svg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/icon-carbon-neutral.svg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/icon-decrement-quantity.svg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/icon-increment-quantity.svg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/icon-order-confirmed.svg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/icon-remove-item.svg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/illustration-empty-cart.svg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-baklava-desktop.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-baklava-mobile.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-baklava-tablet.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-baklava-thumbnail.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-brownie-desktop.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-brownie-mobile.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-brownie-tablet.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-brownie-thumbnail.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-cake-desktop.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-cake-mobile.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-cake-tablet.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-cake-thumbnail.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-creme-brulee-desktop.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-creme-brulee-mobile.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-creme-brulee-tablet.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-creme-brulee-thumbnail.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-macaron-desktop.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-macaron-mobile.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-macaron-tablet.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-macaron-thumbnail.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-meringue-desktop.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-meringue-mobile.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-meringue-tablet.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-meringue-thumbnail.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-panna-cotta-desktop.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-panna-cotta-mobile.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-panna-cotta-tablet.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-panna-cotta-thumbnail.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-tiramisu-desktop.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-tiramisu-mobile.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-tiramisu-tablet.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-tiramisu-thumbnail.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-waffle-desktop.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-waffle-mobile.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-waffle-tablet.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/assets/images/image-waffle-thumbnail.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/data.json
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/design/active-states.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/design/desktop-design-empty.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/design/desktop-design-order-confirmation.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/design/desktop-design-selected.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/design/mobile-design-empty.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/design/mobile-design-order-confirmation.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/design/mobile-design-selected.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/index.html
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/preview.jpg
+ create mode 100644 CODING PROJECTS/projects1/product-list-with-cart-main/product-list-with-cart-main/style-guide.md
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main.zip
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/.gitignore
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/README-template.md
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/README.md
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/outfit/OFL.txt
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/outfit/README.txt
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/outfit/static/Outfit-Black.ttf
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/outfit/static/Outfit-Bold.ttf
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/outfit/static/Outfit-ExtraBold.ttf
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/outfit/static/Outfit-ExtraLight.ttf
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/outfit/static/Outfit-Light.ttf
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/outfit/static/Outfit-Medium.ttf
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/outfit/static/Outfit-Regular.ttf
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/outfit/static/Outfit-SemiBold.ttf
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/outfit/static/Outfit-Thin.ttf
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/young-serif/OFL.txt
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/images/favicon-32x32.png
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/assets/images/image-omelette.jpeg
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/design/desktop-design.jpg
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/design/mobile-design.jpg
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/index.html
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/preview.jpg
+ create mode 100644 CODING PROJECTS/projects1/recipe-page-main/recipe-page-main/style-guide.md
+ create mode 100644 HTML/.history/.htm_20240904130729
+ create mode 100644 HTML/.history/.htm_20240904130737
+ create mode 100644 HTML/.history/.htm_20240904130743
+ create mode 100644 HTML/.history/.htm_20240904130746
+ create mode 100644 HTML/.history/.htm_20240904130752
+ create mode 100644 HTML/.history/.htm_20240904130754
+ create mode 100644 HTML/.history/.htm_20240904130757
+ create mode 100644 HTML/.history/.htm_20240904130809
+ create mode 100644 HTML/.history/.htm_20240904130814
+ create mode 100644 HTML/.history/.htm_20240904130820
+ create mode 100644 HTML/.history/.htm_20240904130822
+ create mode 100644 HTML/.history/.htm_20240904130849
+ create mode 100644 HTML/.history/.htm_20240904130915
+ create mode 100644 HTML/.history/.htm_20240904130919
+ create mode 100644 HTML/.history/.htm_20240904130922
+ create mode 100644 HTML/.history/.htm_20240904131005
+ create mode 100644 HTML/.history/.htm_20240904131039
+ create mode 100644 HTML/.history/.htm_20240904131045
+ create mode 100644 HTML/.history/class1_20240904125105.html
+ create mode 100644 HTML/.history/class1_20240904125118.html
+ create mode 100644 HTML/.history/class1_20240904125121.html
+ create mode 100644 HTML/.history/class1_20240904125128.html
+ create mode 100644 HTML/.history/class1_20240904125154.html
+ create mode 100644 HTML/.history/class1_20240904125156.html
+ create mode 100644 HTML/.history/class1_20240904125157.html
+ create mode 100644 HTML/.history/class1_20240904125159.html
+ create mode 100644 HTML/.history/class1_20240904125213.html
+ create mode 100644 HTML/.history/class1_20240904125228.html
+ create mode 100644 HTML/.history/class1_20240904125230.html
+ create mode 100644 HTML/.history/class1_20240904125250.html
+ create mode 100644 HTML/.history/class1_20240904125457.html
+ create mode 100644 HTML/.history/class1_20240904125510.html
+ create mode 100644 HTML/.history/class1_20240904125511.html
+ create mode 100644 HTML/.history/class1_20240904125516.html
+ create mode 100644 HTML/.history/class1_20240904125518.html
+ create mode 100644 HTML/.history/class1_20240904125520.html
+ create mode 100644 HTML/.history/class1_20240904125522.html
+ create mode 100644 HTML/.history/class1_20240904125523.html
+ create mode 100644 HTML/.history/class1_20240904125527.html
+ create mode 100644 HTML/.history/class1_20240904125529.html
+ create mode 100644 HTML/.history/class1_20240904125532.html
+ create mode 100644 HTML/.history/class1_20240904125533.html
+ create mode 100644 HTML/.history/class1_20240904125536.html
+ create mode 100644 HTML/.history/class1_20240904125558.html
+ create mode 100644 HTML/.history/class1_20240904125643.html
+ create mode 100644 HTML/.history/class1_20240904125645.html
+ create mode 100644 HTML/.history/class1_20240904125744.html
+ create mode 100644 HTML/.history/class1_20240904125751.html
+ create mode 100644 HTML/.history/class1_20240904125759.html
+ create mode 100644 HTML/.history/class1_20240904125849.html
+ create mode 100644 HTML/.history/class1_20240904125855.html
+ create mode 100644 HTML/.history/class1_20240904130021.html
+ create mode 100644 HTML/.history/class1_20240904130240.html
+ create mode 100644 HTML/.history/class1_20240904130252.html
+ create mode 100644 HTML/.history/class1_20240904130256.html
+ create mode 100644 HTML/.history/class1_20240904130301.html
+ create mode 100644 HTML/.history/class1_20240904130305.html
+ create mode 100644 HTML/.history/class1_20240904130308.html
+ create mode 100644 HTML/.history/class1_20240904130313.html
+ create mode 100644 HTML/.history/class1_20240904130327.html
+ create mode 100644 HTML/.history/class1_20240904130330.html
+ create mode 100644 HTML/.history/class1_20240904130333.html
+ create mode 100644 HTML/.history/class1_20240904130336.html
+ create mode 100644 HTML/.history/class1_20240904130424.html
+ create mode 100644 HTML/.history/class1_20240904130427.html
+ create mode 100644 HTML/.history/class1_20240904130430.html
+ create mode 100644 HTML/.history/class1_20240904130433.html
+ create mode 100644 HTML/.history/class1_20240904130435.html
+ create mode 100644 HTML/.history/class1_20240904130437.html
+ create mode 100644 HTML/.history/class1_20240904130441.html
+ create mode 100644 HTML/.history/class1_20240904130610.html
+ create mode 100644 HTML/.history/class1_20240904130616.html
+ create mode 100644 HTML/.history/class1_20240904134043.html
+ create mode 100644 HTML/.history/class1_20240904134050.html
+ create mode 100644 HTML/.history/class1_20240904134101.html
+ create mode 100644 HTML/.history/class1_20240904134104.html
+ create mode 100644 HTML/.history/class1_20240904134111.html
+ create mode 100644 HTML/.history/class1_20240904134113.html
+ create mode 100644 HTML/.history/class1_20240904134117.html
+ create mode 100644 HTML/.history/class1_20240904140708.html
+ create mode 100644 HTML/.history/class1_20240904140817.html
+ create mode 100644 HTML/.history/class1_20240904140913.html
+ create mode 100644 HTML/.history/class1_20240904141710.html
+ create mode 100644 HTML/.history/class1_20240904141841.html
+ create mode 100644 HTML/.history/class1_20240904143403.html
+ create mode 100644 HTML/.history/class1_20240904143448.html
+ create mode 100644 HTML/.history/class1_20240904144458.html
+ create mode 100644 HTML/.history/class1_20240904145051.html
+ create mode 100644 HTML/.history/class2_20240904130032.html
+ create mode 100644 HTML/.history/class2_20240904130034.html
+ create mode 100644 HTML/.history/class2_20240904130039.html
+ create mode 100644 HTML/.history/class2_20240904130042.html
+ create mode 100644 HTML/.history/class2_20240904130049.html
+ create mode 100644 HTML/.history/class2_20240904130103.html
+ create mode 100644 HTML/.history/class2_20240904130109.html
+ create mode 100644 HTML/.history/class2_20240904130114.html
+ create mode 100644 HTML/.history/class2_20240904130119.html
+ create mode 100644 HTML/.history/class2_20240904130122.html
+ create mode 100644 HTML/.history/class2_20240904130127.html
+ create mode 100644 HTML/.history/class2_20240904134506.html
+ create mode 100644 HTML/.history/class2_20240904134512.html
+ create mode 100644 HTML/.history/class2_20240904134521.html
+ create mode 100644 HTML/.history/class2_20240904134526.html
+ create mode 100644 HTML/.history/class2_20240904134530.html
+ create mode 100644 HTML/.history/form_20240904134112.html
+ create mode 100644 HTML/.history/form_20240904134116.html
+ create mode 100644 HTML/.history/form_20240904134119.html
+ create mode 100644 HTML/.history/form_20240904134249.html
+ create mode 100644 HTML/.history/form_20240904134316.html
+ create mode 100644 HTML/.history/form_20240904134322.html
+ create mode 100644 HTML/.history/form_20240904134327.html
+ create mode 100644 HTML/.history/form_20240904134636.html
+ create mode 100644 HTML/.history/form_20240904134639.html
+ create mode 100644 HTML/.history/form_20240904134651.html
+ create mode 100644 HTML/.history/form_20240904134655.html
+ create mode 100644 HTML/.history/project1_20240904124915.html
+ create mode 100644 HTML/.history/project1_20240904124927.html
+ create mode 100644 HTML/.history/project1_20240904124954.html
+ create mode 100644 HTML/.history/project1_20240904125005.html
+ create mode 100644 HTML/.history/project1_20240904125012.html
+ create mode 100644 HTML/.history/project1_20240904125014.html
+ create mode 100644 HTML/.history/project1_20240904125016.html
+ create mode 100644 HTML/.history/project1_20240904125020.html
+ create mode 100644 HTML/.history/project1_20240904125025.html
+ create mode 100644 HTML/.history/project1_20240904125029.html
+ create mode 100644 HTML/.history/project1_20240904125050.html
+ create mode 100644 HTML/.history/project1_20240904125051.html
+ create mode 100644 HTML/.history/project1_20240904125103.html
+ create mode 100644 HTML/.history/project1_20240904125110.html
+ create mode 100644 HTML/.history/project1_20240904125121.html
+ create mode 100644 HTML/.history/project1_20240904125127.html
+ create mode 100644 HTML/.history/project1_20240904125152.html
+ create mode 100644 HTML/.history/project1_20240904125159.html
+ create mode 100644 HTML/.history/project1_20240904125211.html
+ create mode 100644 HTML/.history/project1_20240904125213.html
+ create mode 100644 HTML/.history/project1_20240904125216.html
+ create mode 100644 HTML/.history/project1_20240904132618.html
+ create mode 100644 HTML/.history/project1_20240904132629.html
+ create mode 100644 HTML/.history/project1_20240904132634.html
+ create mode 100644 HTML/.history/project1_20240904132640.html
+ create mode 100644 HTML/.history/project1_20240904132645.html
+ create mode 100644 HTML/.history/script_20240904132634.js
+ create mode 100644 HTML/.history/script_20240904132640.js
+ create mode 100644 HTML/.history/script_20240904145049.js
+ create mode 100644 HTML/.history/t_20240904130731
+ create mode 100644 HTML/.history/t_20240904130737
+ create mode 100644 HTML/.history/t_20240904130743
+ create mode 100644 HTML/.htm
+ create mode 100644 HTML/.py
+ create mode 100644 HTML/.vscode/settings.json
+ create mode 100644 HTML/300 LEVEL COURSE OUTLINE.html
+ create mode 100644 HTML/Car Selection.html
+ create mode 100644 HTML/DOM.html
+ create mode 100644 HTML/DOM.js
+ create mode 100644 HTML/Dee.html
+ create mode 100644 HTML/Figmaform.css
+ create mode 100644 HTML/Figmaform.html
+ create mode 100644 HTML/Figmaform.js
+ create mode 100644 HTML/JS.html
+ create mode 100644 HTML/Ugo.html
+ create mode 100644 HTML/caculator.css
+ create mode 100644 HTML/calc.css
+ create mode 100644 HTML/calc.html
+ create mode 100644 HTML/calc.js
+ create mode 100644 HTML/calculator.css
+ create mode 100644 HTML/calculator.html
+ create mode 100644 HTML/calculator.js
+ create mode 100644 HTML/class2.html
+ create mode 100644 HTML/class3.css
+ create mode 100644 HTML/class3.html
+ create mode 100644 HTML/form.html
+ create mode 100644 HTML/form2.html
+ create mode 100644 HTML/formfigma.html
+ create mode 100644 HTML/image/bg-curvy-desktop.svg
+ create mode 100644 HTML/image/bg-curvy-mobile.svg
+ create mode 100644 HTML/image/bg-quotes.png
+ create mode 100644 HTML/image/bodycare.jpg
+ create mode 100644 HTML/image/favicon-32x32.png
+ create mode 100644 HTML/image/fylo.jpeg
+ create mode 100644 HTML/image/github.png
+ create mode 100644 HTML/image/google.png
+ create mode 100644 HTML/image/hiddenpassword.png
+ create mode 100644 HTML/image/icon-access-anywhere.svg
+ create mode 100644 HTML/image/icon-any-file.svg
+ create mode 100644 HTML/image/icon-arrow.svg
+ create mode 100644 HTML/image/icon-collaboration.svg
+ create mode 100644 HTML/image/icon-email.svg
+ create mode 100644 HTML/image/icon-location.svg
+ create mode 100644 HTML/image/icon-luxury.svg
+ create mode 100644 HTML/image/icon-phone.svg
+ create mode 100644 HTML/image/icon-security.svg
+ create mode 100644 HTML/image/icon-sedans.svg
+ create mode 100644 HTML/image/icon-suvs.svg
+ create mode 100644 HTML/image/illustration-intro.png
+ create mode 100644 HTML/image/illustration-stay-productive.png
+ create mode 100644 HTML/image/logo.svg
+ create mode 100644 HTML/image/profile-1.jpg
+ create mode 100644 HTML/image/profile-2.jpg
+ create mode 100644 HTML/image/profile-3.jpg
+ create mode 100644 HTML/image/shownpassword.png
+ create mode 100644 HTML/index.html
+ create mode 100644 HTML/online.html
+ create mode 100644 HTML/project1.html
+ create mode 100644 HTML/project2.css
+ create mode 100644 HTML/quokka.js
+ create mode 100644 HTML/script.js
+ create mode 100644 HTML/style1.css
+ create mode 100644 HTML/style2.css
+ create mode 100644 HTML/styles.css
+ create mode 100644 New folder/#list food remaining.py
+ create mode 100644 New folder/Bethel_whileloop.py
+ create mode 100644 New folder/Ebuka.py
+ create mode 100644 New folder/LICENSE.txt
+ create mode 100644 New folder/Martins.py
+ create mode 100644 New folder/NEWS.txt
+ create mode 100644 New folder/Somto.py
+ create mode 100644 New folder/almighty_formula_assignment.py
+ create mode 100644 New folder/append1.py
+ create mode 100644 New folder/assignment.py
+ create mode 100644 New folder/bitch.py
+ create mode 100644 New folder/blah.txt
+ create mode 100644 New folder/classwork.py
+ create mode 100644 New folder/classwork1.py
+ create mode 100644 New folder/classwork10.py
+ create mode 100644 New folder/classwork11.py
+ create mode 100644 New folder/classwork12.py
+ create mode 100644 New folder/classwork13.py
+ create mode 100644 New folder/classwork14.py
+ create mode 100644 New folder/classwork2.py
+ create mode 100644 New folder/classwork3.py
+ create mode 100644 New folder/classwork4.py
+ create mode 100644 New folder/classwork5.py
+ create mode 100644 New folder/classwork6.py
+ create mode 100644 New folder/classwork7.py
+ create mode 100644 New folder/classwork8.py
+ create mode 100644 New folder/classwork9.py
+ create mode 100644 New folder/classwwork2.py
+ create mode 100644 New folder/colourassignment.py
+ create mode 100644 New folder/combination.py
+ create mode 100644 New folder/conversion_assignment.py
+ create mode 100644 New folder/data_type.py
+ create mode 100644 New folder/example1.py
+ create mode 100644 New folder/example2.py
+ create mode 100644 New folder/example3.py
+ create mode 100644 New folder/f00d.py
+ create mode 100644 New folder/flightticketassignment.py
+ create mode 100644 New folder/justice1.txt
+ create mode 100644 New folder/justice2.py
+ create mode 100644 New folder/learn.txt
+ create mode 100644 New folder/learning.txt
+ create mode 100644 New folder/list_assignment.py
+ create mode 100644 New folder/myfriends.txt
+ create mode 100644 New folder/myfriendsassignment.py
+ create mode 100644 New folder/python.exe
+ create mode 100644 New folder/python.pdb
+ create mode 100644 New folder/python3.13t.exe
+ create mode 100644 New folder/python3.13t.pdb
+ create mode 100644 New folder/python3.13t_d.exe
+ create mode 100644 New folder/python3.13t_d.pdb
+ create mode 100644 New folder/python3.dll
+ create mode 100644 New folder/python313.dll
+ create mode 100644 New folder/python313.pdb
+ create mode 100644 New folder/python313_d.dll
+ create mode 100644 New folder/python313_d.pdb
+ create mode 100644 New folder/python313t.dll
+ create mode 100644 New folder/python313t.pdb
+ create mode 100644 New folder/python38.dll
+ create mode 100644 New folder/python3_d.dll
+ create mode 100644 New folder/python3t.dll
+ create mode 100644 New folder/python3t_d.dll
+ create mode 100644 New folder/python_d.exe
+ create mode 100644 New folder/python_d.pdb
+ create mode 100644 New folder/pythonw.exe
+ create mode 100644 New folder/pythonw.pdb
+ create mode 100644 New folder/pythonw3.13t.exe
+ create mode 100644 New folder/pythonw3.13t.pdb
+ create mode 100644 New folder/pythonw3.13t_d.exe
+ create mode 100644 New folder/pythonw3.13t_d.pdb
+ create mode 100644 New folder/pythonw_d.exe
+ create mode 100644 New folder/pythonw_d.pdb
+ create mode 100644 New folder/simple_interest_assignment.py
+ create mode 100644 New folder/test.py
+ create mode 100644 New folder/test2.py
+ create mode 100644 New folder/textfileassignment.py
+ create mode 100644 New folder/thing.txt
+ create mode 100644 New folder/variable.py
+ create mode 100644 New folder/vcruntime140.dll
+ create mode 100644 New folder/vcruntime140_1.dll
+ create mode 100644 New folder/vowelsassignment.py
+ create mode 100644 Personal Lesson On Html and Css/W3Schools.html
+ create mode 100644 Personal Lesson On Html and Css/blog.html
+ create mode 100644 Personal Lesson On Html and Css/image/Bito.Bito-1.3.9.vsix
+ create mode 100644 Personal Lesson On Html and Css/image/IMG_3217~2.jpeg
+ create mode 100644 Personal Lesson On Html and Css/image/coding.jpeg
+ create mode 100644 Personal Lesson On Html and Css/image/css.jpeg
+ create mode 100644 Personal Lesson On Html and Css/image/html.jpeg
+ create mode 100644 Personal Lesson On Html and Css/image/html.png
+ create mode 100644 Personal Lesson On Html and Css/image/javascript.jpeg
+ create mode 100644 Personal Lesson On Html and Css/image/picture.jpeg
+ create mode 100644 Personal Lesson On Html and Css/image/shoe.jpeg
+ create mode 100644 Personal Lesson On Html and Css/index.html
+ create mode 100644 Personal Lesson On Html and Css/shoe shop.html
+ create mode 100644 Personal Lesson On Html and Css/style.css
+ create mode 100644 Python Codes/#list food remaining.py
+ create mode 100644 Python Codes/.idea/Code.iml
+ create mode 100644 Python Codes/.idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 Python Codes/.idea/misc.xml
+ create mode 100644 Python Codes/.idea/modules.xml
+ create mode 100644 Python Codes/.idea/workspace.xml
+ create mode 100644 Python Codes/Bethel_whileloop.py
+ create mode 100644 Python Codes/Ebuka.py
+ create mode 100644 Python Codes/LICENSE.txt
+ create mode 100644 Python Codes/Martins.py
+ create mode 100644 Python Codes/NEWS.txt
+ create mode 100644 Python Codes/Somto.py
+ create mode 100644 Python Codes/almighty_formula_assignment.py
+ create mode 100644 Python Codes/append1.py
+ create mode 100644 Python Codes/assignment.py
+ create mode 100644 Python Codes/bitch.py
+ create mode 100644 Python Codes/blah.txt
+ create mode 100644 Python Codes/classwork.py
+ create mode 100644 Python Codes/classwork1.py
+ create mode 100644 Python Codes/classwork10.py
+ create mode 100644 Python Codes/classwork11.py
+ create mode 100644 Python Codes/classwork12.py
+ create mode 100644 Python Codes/classwork13.py
+ create mode 100644 Python Codes/classwork14.py
+ create mode 100644 Python Codes/classwork2.py
+ create mode 100644 Python Codes/classwork3.py
+ create mode 100644 Python Codes/classwork4.py
+ create mode 100644 Python Codes/classwork5.py
+ create mode 100644 Python Codes/classwork6.py
+ create mode 100644 Python Codes/classwork7.py
+ create mode 100644 Python Codes/classwork8.py
+ create mode 100644 Python Codes/classwork9.py
+ create mode 100644 Python Codes/classwwork2.py
+ create mode 100644 Python Codes/colourassignment.py
+ create mode 100644 Python Codes/conversion_assignment.py
+ create mode 100644 Python Codes/data_type.py
+ create mode 100644 Python Codes/example1.py
+ create mode 100644 Python Codes/example2.py
+ create mode 100644 Python Codes/example3.py
+ create mode 100644 Python Codes/f00d.py
+ create mode 100644 Python Codes/flightticketassignment.py
+ create mode 100644 Python Codes/justice1.txt
+ create mode 100644 Python Codes/justice2.py
+ create mode 100644 Python Codes/learn.txt
+ create mode 100644 Python Codes/learning.txt
+ create mode 100644 Python Codes/list_assignment.py
+ create mode 100644 Python Codes/myfirstprogram.cpp
+ create mode 100644 Python Codes/myfriends.txt
+ create mode 100644 Python Codes/myfriendsassignment.py
+ create mode 100644 Python Codes/practice1.cpp
+ create mode 100644 Python Codes/python.exe
+ create mode 100644 Python Codes/python.pdb
+ create mode 100644 Python Codes/python3.13t.exe
+ create mode 100644 Python Codes/python3.13t.pdb
+ create mode 100644 Python Codes/python3.13t_d.exe
+ create mode 100644 Python Codes/python3.13t_d.pdb
+ create mode 100644 Python Codes/python3.dll
+ create mode 100644 Python Codes/python313.dll
+ create mode 100644 Python Codes/python313.pdb
+ create mode 100644 Python Codes/python313_d.dll
+ create mode 100644 Python Codes/python313_d.pdb
+ create mode 100644 Python Codes/python313t.dll
+ create mode 100644 Python Codes/python313t.pdb
+ create mode 100644 Python Codes/python38.dll
+ create mode 100644 Python Codes/python3_d.dll
+ create mode 100644 Python Codes/python3t.dll
+ create mode 100644 Python Codes/python3t_d.dll
+ create mode 100644 Python Codes/python_d.exe
+ create mode 100644 Python Codes/python_d.pdb
+ create mode 100644 Python Codes/pythonw.exe
+ create mode 100644 Python Codes/pythonw.pdb
+ create mode 100644 Python Codes/pythonw3.13t.exe
+ create mode 100644 Python Codes/pythonw3.13t.pdb
+ create mode 100644 Python Codes/pythonw3.13t_d.exe
+ create mode 100644 Python Codes/pythonw3.13t_d.pdb
+ create mode 100644 Python Codes/pythonw_d.exe
+ create mode 100644 Python Codes/pythonw_d.pdb
+ create mode 100644 Python Codes/quadratic_equation.py
+ create mode 100644 Python Codes/simple_interest_assignment.py
+ create mode 100644 Python Codes/test.py
+ create mode 100644 Python Codes/test2.py
+ create mode 100644 Python Codes/textfileassignment.py
+ create mode 100644 Python Codes/thing.txt
+ create mode 100644 Python Codes/variable.py
+ create mode 100644 Python Codes/vcruntime140.dll
+ create mode 100644 Python Codes/vcruntime140_1.dll
+ create mode 100644 Python Codes/vowelsassignment.py
+ create mode 100644 README.md
+ create mode 100644 ighub web dev/Assignment.zip
+ create mode 100644 ighub web dev/about.png
+ create mode 100644 ighub web dev/contact.png
+ create mode 100644 ighub web dev/doctor.png
+ create mode 100644 ighub web dev/index.html
+ create mode 100644 ighub web dev/index2.html
+ create mode 100644 ighub web dev/script.js
+ create mode 100644 ighub web dev/script/script.js
+ create mode 100644 ighub web dev/style/css/style.css
+ create mode 100644 workspace.code-workspace
+
+C:\Users\justi\Desktop\CODES>git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/ItzChimmy029/JUSTICE-.git'
+
+C:\Users\justi\Desktop\CODES>git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/ItzChimmy029/JUSTICE-.git'
+
+C:\Users\justi\Desktop\CODES>git branch
+* main
+
+C:\Users\justi\Desktop\CODES>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 570, done.
+Counting objects: 100% (570/570), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (545/545), done.
+Writing objects: 100% (570/570), 53.60 MiB | 388.00 KiB/s, done.
+Total 570 (delta 131), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (131/131), done.
+To https://github.com/ItzChimmy029/JUSTICE-.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.

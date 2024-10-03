@@ -9,4 +9,4 @@ if age <= 6:
 elif age >6 and age<=13:
     print(f'{name} is a child so he/she will pay for ${child_price} a ticket')
 elif age >13:
-    print(f'{name} is an adult so he/she will pay ${adult_price} for a ticket')
+    print("name" "is an adult so he/she will pay" ,$ {adult_price}, "for a ticket")
