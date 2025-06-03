@@ -9,6 +9,7 @@ body {
     color: #444;
     font-family: sans-serif;
     border-top: 18px solid #1098ad;
+    position: relative;
 }
 
 .main-header {
@@ -25,6 +26,8 @@ aside {
     border-bottom: 5px solid #1098ad;
     /* border: 5px dashed #1098ad;
     border: 5px dotted #1098ad; */
+    padding: 50px 0;
+    width: 500px;
 }
 
 /* SMALLER ELEMENTS  */
@@ -116,6 +119,7 @@ ol {
 
 .related {
     list-style: none;
+
 }
 
 /* header {
@@ -200,8 +204,8 @@ nav a:link:last-child{
 }
 
 #post-img{
-    width: 100%;
-    height: auto;
+    width: 50%;
+    /* height: 100%; */
     /* margin: 100px; */
 }
 
@@ -232,4 +236,16 @@ nav p {
 
 nav {
     font-size: 18px;
+}
+
+button {
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+
+    position: relative;
+    /* top: 50px; */
+    bottom: 50px;
+    /* left: 50px; */
+    right: 50%;
 }

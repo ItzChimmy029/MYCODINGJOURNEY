@@ -74,14 +74,14 @@
 
 
 // Date object
-// let date = new Date("2020")
-// let date1 = new Date()
-// let a = date.getFullYear()
-// let b = date1.getFullYear()
+let date = new Date("2020")
+let date1 = new Date()
+let a = date.getFullYear()
+let b = date1.getFullYear()
 
-// let para = document.getElementById("date")
-// para.innerHTML = `He is ${b-a} years old`
-// para.innerHTML = date.toLocaleDateString()
+let para = document.getElementById("date")
+para.innerHTML = `He is ${b-a} years old`
+para.innerHTML = date.toLocaleDateString()
 
 
 // para.innerHTML = date.getFullYear()
@@ -102,28 +102,14 @@
 // para.innerHTML = date.setMonth()
 // para.innerHTML = date.getFullYear()
 
-let img = document.getElementById("image")
-// let imgSrc = img.src
-console.log(img.src);
+// let img = document.getElementById("image")
+// // let imgSrc = img.src
+// console.log(img.src);
 
-function toggleImage() {
-    if(img.src.endsWith("doctor.png")){
-        img.src = "about.png"   
-    } else {
-        img.src = "doctor.png"
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// function toggleImage() {
+//     if(img.src.endsWith("doctor.png")){
+//         img.src = "about.png"   
+//     } else {
+//         img.src = "doctor.png"
+//     }
+// }

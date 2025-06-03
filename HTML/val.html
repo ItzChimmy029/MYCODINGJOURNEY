@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine? ❤</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Glowing Heart Animation */
+        .big-heart {
+            font-size: 10vw;
+            color: red;
+            text-shadow: 0 0 30px rgba(255, 0, 0, 0.8);
+            animation: heartbeat 1.5s infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        /* Title */
+        h2 {
+            font-size: 5vw;
+            color: white;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.6);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Buttons */
+        .buttons {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            background: linear-gradient(to right, #ff4d4d, #ff1a75);
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.5rem; /* Use rem for button size */
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:hover {
+            background: linear-gradient(to right, #cc0000, #ff0033);
+            transform: scale(1.1);
+        }
+
+        /* Response Message */
+        #message {
+            font-size: 2rem; /* Adjusted for readability */
+            color: white;
+            font-weight: bold;
+            margin-top: 20px;
+            display: none;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Floating Hearts */
+        .heart {
+            position: absolute;
+            font-size: 30px;
+            color: white;
+            animation: floatUp 5s linear infinite;
+        }
+
+        @keyframes floatUp {
+            0% { transform: translateY(100vh) scale(0.5); }
+            100% { transform: translateY(-10vh) scale(1.5); }
+        }
+
+        /* Additional Romantic Touch */
+        .romantic-message {
+            font-size: 1.5rem; /* Adjusted size */
+            color: white;
+            font-style: italic;
+            margin-top: 15px;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 1024px) {
+            h2 {
+                font-size: 6vw; /* Adjust font size for tablets */
+            }
+            .btn {
+                font-size: 1.25rem; /* Smaller font for buttons */
+                padding: 12px 25px;
+            }
+            #message {
+                font-size: 1.5rem; /* Adjust for readability */
+            }
+            .romantic-message {
+                font-size: 1.25rem; /* Adjust for readability */
+            }
+        }
+
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 7vw; /* Adjust font size for smaller tablets */
+            }
+            .btn {
+                font-size: 1.5rem; /* Adjust font size for buttons */
+                padding: 12px 20px;
+            }
+            #message {
+                font-size: 1.25rem;
+            }
+            .romantic-message {
+                font-size: 1.25rem; /* Adjust for readability */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .big-heart {
+                font-size: 12vw; /* Make heart larger on small screens */
+            }
+            h2 {
+                font-size: 10vw; /* Title font adjustment */
+            }
+            .btn {
+                font-size: 1.5rem; /* Ensure buttons are not too big */
+                padding: 10px 20px;
+            }
+            #message {
+                font-size: 1rem; /* Smaller text on mobile */
+            }
+            .romantic-message {
+                font-size: 1rem; /* Adjust for mobile readability */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Big Glowing Heart -->
+    <div class="big-heart">❤</div>
+    <h2 id="question">Will you be my Valentine? ❤</h2>
+    <p class="romantic-message">"Love is not about how many days, months, or years you have been together. It’s all about how much you love each other every single day."</p>
+    
+    <div class="buttons">
+        <button class="btn" id="yesBtn" onclick="showMessage('yes')">Yes ❤</button>
+        <button class="btn" id="noBtn" onclick="showMessage('no')">No 💔</button>
+    </div>
+    
+    <p id="message"></p>
+
+    <script>
+        function showMessage(answer) {
+            let message = document.getElementById("message");
+            message.style.display = "block";
+
+            if (answer === "yes") {
+                message.innerHTML = "Yay! You're my Valentine! 🫂❤️";
+                createHearts();
+            } else {
+                message.innerHTML = "Oh no! I’ll keep trying to win your heart! 😢💔";
+            }
+        }
+
+        // Floating Hearts Effect
+        function createHearts() {
+            for (let i = 0; i < 10; i++) {
+                let heart = document.createElement("div");
+                heart.innerHTML = "❤";
+                heart.classList.add("heart");
+                document.body.appendChild(heart);
+                heart.style.left = Math.random() * window.innerWidth + "px";
+                heart.style.animationDuration = (Math.random() * 3 + 2) + "s";
+
+                setTimeout(() => { heart.remove(); }, 5000);
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,19 +1,18 @@
 // let totalScore = 0;
 // for (let i = 1; 1 <= 5; i++) {
 //   let score = prompt("Enter your score");
-//   totalScore += parseInt(score);
+//   score += parseInt(totalScore);
 // }
 // console.log("Your total score is " + totalScore);
 
 // for (let i = 1; i <= 12; i++) {
 //   let number = parseInt(prompt(`Enter number ${i}:`), 10);
-
 //   if (number === 0) {
 //     console.log(`The result of ${number} * 5 is 0, which is even.`);
 //   } else if (number) {
 //     // This checks if the number is a valid number (not NaN, null, or undefined)
 //     let result = number * 5;
-//     let evenOrOdd = result % 2 === 0 ? "even" : "odd";
+//     let evenOrOdd = result % 2 === 0 ? "even" : "odd"; // Tenary Operation
 //     console.log(
 //       `The result of ${number} * 5 is ${result}, which is ${evenOrOdd}.`
 //     );
@@ -72,7 +71,6 @@
 //  console.log(`Total Score is ${totalScore}`)
 
 // USING FOR LOOP FOR 5 MULTIPLICATION TABLE
-
 //   for (let i = 1; i <= 12; i++) {
 //     let number = parseInt(prompt(`Enter number ${i}:`), 10);
 //     if (number === 0) {
@@ -110,10 +108,10 @@
 // }
 
 // WHILE LOOP
-// let value = 0;
-// while (value < 100) {
-//  console.log("I'm Learning Javascript")
-// }
+let value = 0;
+while (value < 100) {
+ console.log("I'm Learning Javascript")
+}
 
 // LENGTH OF A STRING
 // let myName = "emeka"
@@ -140,7 +138,6 @@
 //   let name = prompt("Enter your name:");
 //   console.log(`Hello ${name}!`);
 // }
-
 // greetUser();
 
 // USE OF PARAMS
@@ -148,7 +145,6 @@
 //   let name = prompt("Enter your name:");
 //   console.log(`Hello ${NAME}!`);
 // }
-
 // greetUser(NAME);
 
 // ASSIGNMENT ON FIZZBUZZ
@@ -613,7 +609,7 @@
 
 // objects
 //  const user = {
-//   name : "Chim",
+//   name : "Chimdalu",
 //   age : 7,
 //   stack : "Software Development"
 //  }
