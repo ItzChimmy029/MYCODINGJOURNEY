@@ -108,10 +108,10 @@
 // }
 
 // WHILE LOOP
-let value = 0;
-while (value < 100) {
- console.log("I'm Learning Javascript")
-}
+// let value = 0;
+// while (value < 100) {
+//  console.log("I'm Learning Javascript")
+// }
 
 // LENGTH OF A STRING
 // let myName = "emeka"

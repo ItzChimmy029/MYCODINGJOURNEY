@@ -25,6 +25,8 @@
 let toggleParenthesis = true; // Flag to track which parenthesis should be added next
 
 function appendToDisplay(value) {
+
+  // document.getElementById('display').value =  document.getElementById('display').value + value;
   document.getElementById('display').value += value;
 }
 
