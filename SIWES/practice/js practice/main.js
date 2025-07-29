@@ -593,5 +593,11 @@ The 5 largest countries in the world:
 
 // console.log(rockPaperScissor());
 
-//7th July, 2025.
-// Sorting fruits
+//26th July, 2025
+
+// console.log(Boolean("")); // false
+// console.log(Boolean("0")); // true
+// console.log(Boolean(100)); // true
+// console.log(Boolean(null)); // false
+// console.log(Boolean([0])); // true
+// console.log(Boolean(-0)); // false

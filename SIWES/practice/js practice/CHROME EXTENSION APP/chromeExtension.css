@@ -19,8 +19,16 @@ button {
     padding: 10px 20px;
     border: none;
     font-weight: bold;
+    border: 1px solid #5f9341;
+    border-radius: 10px;
 }
 
+#delete-btn {
+    color: #5f9341;
+    background-color: #fff;
+    border: 1px solid #5f9341;
+    border-radius: 10px;
+}
 
 /* STYLE THE LIST ACCORDING TO THE DESIGN */
 ul {
