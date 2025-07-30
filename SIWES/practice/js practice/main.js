@@ -19,8 +19,6 @@
 
 // age === 10 ? console.log("Hey")  : console.log("Good");
 
-
-
 // MY JAVASCRIPT PRACTICE
 
 // document.getElementById("count-el").innerText = 5;
@@ -38,7 +36,6 @@
 // let humanDogRatio = 7;
 // let myDogAge = myAge * humanDogRatio;
 // console.log(myDogAge);
-
 
 // let count = 5;
 // count = count + 1;
@@ -73,7 +70,6 @@
 // }
 // numberCaller()
 
-
 // function sumOfLaps() {
 //     let lap1 = 34;
 //     let lap2 = 33;
@@ -91,7 +87,6 @@
 // }
 // lapsComplete()
 
-
 // DOM - DOCUMENT OBJECT MODEL
 // let count = 0;
 // let countEl = document.getElementById("count-el")
@@ -103,7 +98,6 @@
 //     countEl.innerText = count;
 //     console.log("clicked");
 // }
-
 
 // // MY FIRST JAVASCRIPT APP
 
@@ -129,8 +123,6 @@
 // }
 
 // console.log("Let's count the people on our subway!!");
-
-
 
 // EVALUATION ON VARIABLES
 
@@ -177,33 +169,24 @@
 // Call the functions to that line below logs out 10
 // console.log(myPoints);
 
-
 // Try to predict what each of the lines will log out
 // console.log("2" + 2); // "22"
 // console.log(typeof("2" + 2)); // string
 
-
 // console.log(11 + 7); // "18"
 //console.log(typeof(11 + 7)); // number
-
 
 // console.log(6 + "5"); // 65
 // console.log(typeof(6 + "5")); // string
 
-
 // console.log("My points: " + 5 + 9); // My points : 14
 // console.log(typeof("My points: " + 5 + 9));// string
-
 
 // console.log(2 + 2); // 4
 // console.log(typeof(2 + 2));// number
 
-
 // console.log("11" + "14"); //1114
 // console.log(typeof("11" + "14"));// string
-
-
-
 
 // From 23rd June Practice on how to use JS
 
@@ -216,10 +199,8 @@
 // console.log(11 <= 11); // true
 // console.log(3 <= 2); //false
 
-
 // Arrays - ordered list of items - composite / complex data type
 // let featuredPosts = ["Check out my netflix clone" + "Here's the code for my project" + "I've just relaunched my portfolio"]
-
 
 // some arrays look like this
 //  let featuredPosts = [
@@ -227,7 +208,6 @@
 //   "Here's the code for my project",
 //   "I've just relaunched my portfolio",
 // ]
-
 
 // console.log(featuredPosts[0]); // it will output "Check out my Netflix clone"
 
@@ -241,7 +221,6 @@
 // console.log(experience[1]); // it will output "Frontend Developer"
 // console.log(experience[2]);// it will output "People counter"
 // console.log(experience[0]); // It will output "CEO at Scrimba"
-
 
 // To check the length of the array , we use variable.length
 
@@ -272,7 +251,6 @@
 // messages.push(newMessage);
 // console.log(messages);
 
-
 // The output is below
 /* [
     "Hey, how's it going?",
@@ -284,8 +262,6 @@
 // We use the pop to remove an item in an array
 // messages.pop()
 
-
- 
 // let cards = [7, 3, 9, 18]
 // Create a for loop that logs out all the cards in the array
 // Use cards.length to specify the loop should run
@@ -320,7 +296,6 @@
 // let totalTime = sumOfRaceTime()
 // console.log(`The total race time for player One and player Two is ${totalTime}.`);
 
-
 // How to generate random numbers
 // let randomNumber = Math.random()
 // console.log(randomNumber);
@@ -346,13 +321,10 @@ SYNTAX : Math.floor(Math.random() * n) + 1
 // let diceNumber = rollDice()
 // console.log(diceNumber);
 
-
-
 // let randomNumber = Math.floor(Math.random() * 6) + 1
 
 // console.log(randomNumber);
 /*It would generate numbers from 0 to 6*/
-
 
 // Math.floor
 
@@ -368,7 +340,6 @@ It rounds the decimal number to a whole number irrespective if the number after 
 
 In summary, it removes the decimals.
 */
-
 
 // Logical AND operator -  &&
 
@@ -386,7 +357,7 @@ In summary, it removes the decimals.
 // }
 // else {
 //     console.log("You've not completed the courses");
-    
+
 // }
 
 // function generateCertificate() {
@@ -405,7 +376,7 @@ In summary, it removes the decimals.
 
 // function showSolution() {
 //     console.log("Showing the solution....");
-    
+
 // }
 
 // OR OPERATOR - ||
@@ -420,9 +391,8 @@ In summary, it removes the decimals.
 
 // function recommendMovie() {
 //     console.log("Hey, check out this new film we think you'll like!");
-    
-// }
 
+// }
 
 // INTRO TO OBJECTS DATATYPE
 // Objects - store data in-depth - composite / complex data type
@@ -459,8 +429,6 @@ In summary, it removes the decimals.
 // console.log(castle.title);
 // console.log(castle.price);
 
-
-
 // 2nd July, 2025.
 // Practice on Objects and Functions
 // Questions
@@ -472,7 +440,6 @@ In summary, it removes the decimals.
 // "Per is 35 years old and lives in Norway"
 
 // Call the logData() function to verify that it works
-
 
 // let personalData = {
 //     name: "Justice",
@@ -488,8 +455,6 @@ In summary, it removes the decimals.
 // PRACTICE 2
 // if..else statement
 
-
-
 /*
 1. Less than 6 years old -> free
 2. 6 to 17 years old     -> child discount
@@ -502,7 +467,6 @@ Create a conditional statement (if/else/else if) that logs out the discount
 
 The passenger will get based upon the value of the age variable
 */
-
 
 // let age = 67
 // if (age < 6) {
@@ -524,8 +488,6 @@ The passenger will get based upon the value of the age variable
 // 3rd July, 2025
 // Practice time on loops and array
 
-
-
 /*
 Use a for loop to log the following to the console
 
@@ -543,8 +505,6 @@ The 5 largest countries in the world:
 //     console.log(`- ${largeCountries[index]}`);
 // }
 
-
-
 // Practice for push, pop, unshift and shift challenge
 // You need to help me fixup the largeCountries array so that
 // China and Pakistan are added back into their respective places
@@ -552,20 +512,17 @@ The 5 largest countries in the world:
 // Use push() and pop() and their counterparts unshift() and shift()
 // Google how to use unshift() and shift()
 
-
 // let largeCountries = ["Tuvalu", "India", "USA", "Indonesia", "Monaco"]
 
 // largeCountries.pop()
 // largeCountries.push("Pakistan")
- // shift() is being used to remove the first item in the array
- // unshift does the opposite
+// shift() is being used to remove the first item in the array
+// unshift does the opposite
 // unshift("newItemToBeAdded")
 
 // largeCountries.shift()
 // largeCountries.unshift("Nigeria")
 // console.log(largeCountries);
-
-
 
 // Practice on logical operators
 
@@ -573,12 +530,11 @@ The 5 largest countries in the world:
 // Use the logical "AND operatoer - &&"
 
 // let dayOfMonth = 13
-// let weekDay = "Friday" 
+// let weekDay = "Friday"
 
 // if (dayOfMonth === 13 && weekDay === "Friday") {
 //     console.log("😮");
 // }
-
 
 // 5th July, 2025.
 
@@ -601,3 +557,67 @@ The 5 largest countries in the world:
 // console.log(Boolean(null)); // false
 // console.log(Boolean([0])); // true
 // console.log(Boolean(-0)); // false
+
+
+
+
+// Code for the chrome extension without comment
+let myLeads = [];
+let oldLeads = [];
+const inputEl = document.getElementById("input-el");
+const inputBtn = document.getElementById("input-btn");
+const ulEl = document.getElementById("ul-el");
+const deleteBtn = document.getElementById("delete-btn");
+const tabBtn = document.getElementById("tab-btn");
+
+console.log(deleteBtn);
+console.log(ulEl);
+console.log(leadsFromLocalStorage);
+
+let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
+
+if (leadsFromLocalStorage) {
+  myLeads = leadsFromLocalStorage;
+  render(myLeads);
+}
+
+tabBtn.addEventListener("click", function () {
+  chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+    myLeads.push(tabs[0].url);
+    localStorage.setItem("myLeads", JSON.stringify(myLeads));
+    render(myLeads);
+  });
+});
+
+function render(leads) {
+  let listItems = "";
+  for (let index = 0; index < leads.length; index++) {
+  listItems += `
+  <li>
+      <a target = '_blank' href ='${leads[index]}'>
+        ${leads[index]}
+      </a>
+  </li>
+  `;
+
+  console.log(listItems);
+  console.log(myLeads[index]);
+  }
+  ulEl.innerHTML = listItems;
+}
+
+deleteBtn.addEventListener("dblclick", function () {
+  console.log("double-clicked");
+  localStorage.clear();
+  myLeads = [];
+  render(myLeads);
+});
+
+inputBtn.addEventListener("click", function () {
+  myLeads.push(inputEl.value);
+  console.log(myLeads);
+  inputEl.value = "";
+  localStorage.setItem("myLeads", JSON.stringify(myLeads));
+  render(myLeads);
+  console.log(localStorage.getItem("myLeads"));
+});
