@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Table</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #89f7fe, #66a6ff);
+      margin: 0;
+      padding: 20px;
+    }
+    .pricing-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .plan {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      width: 100%;
+      max-width: 280px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .plan:hover { transform: scale(1.05); }
+    .price {
+      font-size: 2rem;
+      color: #333;
+    }
+    button {
+      padding: 10px 20px;
+      background: #667eea;
+      border: none;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover { background: #5a67d8; }
+  </style>
+</head>
+<body>
+  <div class="pricing-container">
+    <div class="plan">
+      <h3>Basic</h3>
+      <p class="price">$9/mo</p>
+      <p>✔ 10 Projects</p>
+      <p>✔ Email Support</p>
+      <button>Choose</button>
+    </div>
+    <div class="plan">
+      <h3>Standard</h3>
+      <p class="price">$19/mo</p>
+      <p>✔ 50 Projects</p>
+      <p>✔ Priority Support</p>
+      <button>Choose</button>
+    </div>
+    <div class="plan">
+      <h3>Premium</h3>
+      <p class="price">$29/mo</p>
+      <p>✔ Unlimited Projects</p>
+      <p>✔ 24/7 Support</p>
+      <button>Choose</button>
+    </div>
+  </div>
+</body>
+</html>

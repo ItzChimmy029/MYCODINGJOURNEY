@@ -1,0 +1,211 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #0d6efd;
+}
+
+    .hero-content {
+        background-color: rgba(0, 71, 171, 0.6);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        border-left: 10px solid white;
+        padding: 1.5rem;
+    }
+    
+    .hero-content h1 {
+        text-align: center; /* Centralize the text */
+        font-size: 50px;
+    }
+
+    .hero-content div {
+        text-align: left; /* Align the button to the left */
+    }
+
+  .hero-content div button {
+        background-color: #cb2228;
+        border-color: #cb2228;
+        padding: 0.2rem 2rem;
+        font-size: 2rem; /* Increased font size for bigger text */
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+   
+
+.welcome-box {
+        background-color: rgba(0, 71, 171, 0.6); /* Semi-transparent blue */
+        backdrop-filter: blur(10px); /* Blurry effect */
+        color: white;
+        padding: 5rem;
+        border-radius: 0 1rem 1rem 0; /* Rounds the right-side corners */
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .welcome-box h2 {
+        text-align: center; /* Centralize the text */
+    }
+
+    .welcome-box div button {
+        background-color: #cb2228;
+        border-color: #cb2228;
+        padding: 0.5rem 3.5rem;
+        font-size: 1.25rem;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .curved-row {
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+
+    #image {
+        border-radius: 13% 3% 13% 3%; /* Rounds the left-side corners of the image div */
+        overflow: hidden; /* Ensures the image doesn't show outside the rounded corners */
+    }
+    #image img {
+        object-fit: cover;
+    }
+     hr {
+        height: 3px;
+        background-color: #000;
+        border: none;
+        opacity: 1; /* To make it fully visible */
+    }
+  
+
+  .course-card {
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* ensure all text left-aligned */
+  }
+
+  /* Top 3 cards shorter */
+  .course-card-top {
+    min-height: 60px; /* adjust as needed */
+    max-height: 200px; /* ensure it doesn't grow too tall */
+  }
+
+  /* Bottom 3 cards taller */
+  .course-card-bottom {
+    min-height: 80px; /* adjust as needed */
+    max-height: 200px;
+  }
+
+      .stat-card-icon {
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+    }
+    .stat-card-icon img {
+        max-width: 50%;
+        max-height: 50%;
+    }
+    
+    .stat-card-text h3, 
+    .stat-card-text p {
+        margin-bottom: 0;
+        text-align: left; /* Aligns text to the left */
+    }
+
+
+    /* Styles for the main banner section */
+    #apply-now {
+        background-color: #0047AB; /* Sets the background to white */
+        color: white; /* Sets the default text color to blue */
+        padding: 20px 0; /* Adds vertical padding to the top and bottom */
+    }
+
+    #apply-now .container-fluid img {
+        max-width: 300px; /* Ensures the image is responsive */
+        height: auto; /* Maintains aspect ratio */
+        padding-left: 120px;
+    }
+    
+    /* Styles for the "Interested..." text */
+    .interested-text {
+        font-size: 1.5rem; /* Larger font size */
+        font-weight: bold; /* Makes the text bold */
+    }
+    
+    /* Styles for the "APPLY NOW" button */
+    .apply-now-button {
+        background-color: #fff; /* Sets the background to blue */
+        color: #0047AB; /* Sets the text color to white */
+        border: none; /* Removes the default border */
+        padding-right: 200px;
+        border-radius: 5px; /* Adds slight rounding to the corners */
+        font-weight: bold; /* Makes the text bold */
+    }
+
+    #apply-now-button{
+        padding-right: 120px;
+    }
+
+    .apply-now-button span {
+        color: #0047AB;
+        font-weight: bolder;
+        padding: 0 20px;
+    }
+
+
+        .article-container {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .article-image {
+            width: 100%;
+            max-height: 300px;
+            min-height: 200px;
+            object-fit: cover;
+        }
+        .article-content {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        .article-button-container {
+            padding: 0 1.5rem;
+            margin-top: -1.5rem;
+            text-align: center;
+            margin-top: 50px;
+            margin-right: 200px;
+           
+        }
+
+        
+        .welcome-modern .welcome-img-modern {
+            border-radius: 1rem 0 0 1rem;
+            object-fit: cover;
+            height: 100%;
+            min-height: 320px;
+            max-height: 480px;
+        }
+        @media (max-width: 991.98px) {
+            .welcome-modern { flex-direction: column !important; }
+            .welcome-modern .welcome-img-col { min-height: 180px !important; max-height: 260px !important; }
+            .welcome-modern .welcome-img-modern { border-radius: 1rem 1rem 0 0 !important; min-height: 180px !important; max-height: 260px !important; }
+        }
+        @media (max-width: 767.98px) {
+            .welcome-modern .welcome-img-modern { min-height: 120px !important; max-height: 180px !important; }
+            .welcome-modern .welcome-img-col { min-height: 120px !important; max-height: 180px !important; }
+            .welcome-modern .p-4, .welcome-modern .p-md-5 { padding: 1.5rem !important; }
+        }
+        

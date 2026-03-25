@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passenger Counter App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 20px;
+      padding: 30px;
+      width: 90%;
+      max-width: 420px;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(12px);
+    }
+
+    .card h1 {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
+    .counter-display {
+      font-size: 60px;
+      font-weight: bold;
+      margin: 20px 0;
+      animation: pop 0.3s ease;
+    }
+
+    @keyframes pop {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    button {
+      background: linear-gradient(90deg, #ff7e5f, #feb47b);
+      border: none;
+      border-radius: 12px;
+      padding: 12px 22px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 8px;
+      transition: transform 0.25s ease, background 0.3s ease;
+    }
+
+    button:hover {
+      transform: scale(1.08);
+      background: linear-gradient(90deg, #feb47b, #ff7e5f);
+    }
+
+    .history {
+      margin-top: 15px;
+      font-size: 15px;
+      color: #ffe;
+    }
+
+    .bus-icon {
+      font-size: 60px;
+      animation: bounce 1s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🚍 Passenger Counter</h1>
+    <div class="bus-icon">🚌</div>
+    <p class="counter-display" id="count-el">0</p>
+    <div>
+      <button onclick="increment()">+ Passenger</button>
+      <button onclick="save()">Save Entry</button>
+      <button onclick="resetCounter()">Reset</button>
+    </div>
+    <p class="history" id="save-el">Previous entries: </p>
+  </div>
+
+  <script>
+    let count = 0;
+    let countEl = document.getElementById("count-el");
+    let saveEl = document.getElementById("save-el");
+
+    function increment() {
+      count++;
+      countEl.textContent = count;
+      countEl.style.animation = "pop 0.3s ease";
+      setTimeout(() => { countEl.style.animation = "none"; }, 300);
+    }
+
+    function save() {
+      if (count > 0) {
+        saveEl.textContent += ` ${count} -`;
+        count = 0;
+        countEl.textContent = 0;
+      }
+    }
+
+    function resetCounter() {
+      count = 0;
+      countEl.textContent = 0;
+      saveEl.textContent = "Previous entries: ";
+    }
+  </script>
+</body>
+</html>

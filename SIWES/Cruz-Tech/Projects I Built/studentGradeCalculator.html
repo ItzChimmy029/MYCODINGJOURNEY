@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade Calculator</title>
+  <style>
+    body {
+      background: #f8fafc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      width: 100%;
+      max-width: 350px;
+      text-align: center;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      width: 100%;
+      background: #38b2ac;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .result {
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>📊 Student Grade Calculator</h2>
+    <input type="number" id="mark1" placeholder="Enter Score 1">
+    <input type="number" id="mark2" placeholder="Enter Score 2">
+    <input type="number" id="mark3" placeholder="Enter Score 3">
+    <button onclick="calculateGrade()">Calculate</button>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script>
+    function calculateGrade() {
+      let marks = [
+        parseInt(document.getElementById("mark1").value) || 0,
+        parseInt(document.getElementById("mark2").value) || 0,
+        parseInt(document.getElementById("mark3").value) || 0
+      ];
+      let total = marks.reduce((a, b) => a + b, 0);
+      let average = total / marks.length;
+      let grade = average >= 70 ? "A" :
+                  average >= 60 ? "B" :
+                  average >= 50 ? "C" :
+                  average >= 40 ? "D" : "F";
+      document.getElementById("result").textContent =
+        `Total: ${total}, Average: ${average.toFixed(2)}, Grade: ${grade}`;
+    }
+  </script>
+</body>
+</html>
