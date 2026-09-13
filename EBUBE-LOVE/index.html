@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070811">
+  <title>EBUBE // LOVE.EXE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader" aria-live="polite">
+    <canvas class="loader__canvas" id="loaderCanvas"></canvas>
+    <div class="loader__content">
+      <p class="eyebrow">PRIVATE EXPERIENCE</p>
+      <p class="loader__word" id="loaderWord">FOR</p>
+      <p class="loader__name" id="loaderName">UGWU EBUBE MIRACLE</p>
+      <div class="loader__status"><span></span><b id="loaderStatus">INITIALIZING</b></div>
+      <div class="loader__progress"><i id="loaderProgress"></i></div>
+    </div>
+  </div>
+
+  <canvas id="atmosphere" aria-hidden="true"></canvas>
+  <div class="cursor" id="cursor" aria-hidden="true"><i></i><b></b></div>
+  <button class="music-toggle" id="musicToggle" type="button" aria-label="Toggle background music">♪ <span>OFF</span></button>
+  <main id="experience" aria-hidden="true">
+    <div class="topline"><span>EBUBE // LOVE.EXE</span><span id="sceneCount">01 / 08</span></div>
+
+    <section class="scene scene--hero" id="scene-1" data-scene="01" aria-labelledby="hero-title">
+      <div class="hero-mark">J<span>+</span>E</div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">A LITTLE SOMETHING I MADE FOR YOU</p>
+        <h1 id="hero-title">EBUBE</h1>
+        <p class="hero-subtitle">An intimate transmission from <strong>Justice</strong>,<br>made for one person only.</p>
+        <button class="primary-button magnetic" id="enterButton" type="button"><span>Enter the experience</span><b>↗</b></button>
+      </div>
+      <p class="scroll-cue">SCROLL TO CONTINUE <span>↓</span></p>
+    </section>
+
+    <section class="scene scene--name" id="scene-2" data-scene="02" aria-labelledby="name-title">
+      <div class="scene-label">01 — HER NAME</div>
+      <div class="name-layout">
+        <div>
+          <p class="eyebrow">THE MOST BEAUTIFUL SIGNAL</p>
+          <h2 class="display-title" id="name-title"><span class="split-line">UGWU EBUBE</span><span class="split-line accent">MIRACLE</span></h2>
+        </div>
+        <p class="scene-note">Out of everyone in this world,<br>I'm grateful I get to call you mine.</p>
+      </div>
+    </section>
+
+    <section class="scene scene--constellation" id="scene-3" data-scene="03" aria-labelledby="constellation-title">
+      <div class="scene-label">02 — THE CONSTELLATION</div>
+      <div class="section-heading"><p class="eyebrow">A MAP OF THE LITTLE THINGS</p><h2 id="constellation-title">Everything points<br><em>back to you.</em></h2></div>
+      <div class="constellation" id="constellation" aria-label="Interactive constellation of qualities">
+        <svg class="constellation__lines" viewBox="0 0 800 600" aria-hidden="true"><path d="M400 300 L170 150 L95 380 L275 510 L610 470 L700 220 L545 95 L400 300 M170 150 L545 95 M95 380 L700 220 M275 510 L610 470"/></svg>
+        <div class="constellation__core">EBUBE<span>✦</span></div>
+        <button class="node node--1" data-node="Your smile" type="button">Your smile</button>
+        <button class="node node--2" data-node="Your voice" type="button">Your voice</button>
+        <button class="node node--3" data-node="Your laugh" type="button">Your laugh</button>
+        <button class="node node--4" data-node="Your heart" type="button">Your heart</button>
+        <button class="node node--5" data-node="Your energy" type="button">Your energy</button>
+        <button class="node node--6" data-node="The way you love" type="button">The way you love</button>
+        <button class="node node--7" data-node="Everything about you" type="button">Everything about you</button>
+      </div>
+    </section>
+
+    <section class="scene scene--heart" id="scene-4" data-scene="04" aria-labelledby="heart-title">
+      <div class="scene-label">03 — THE HEART</div>
+      <div class="heart-heading"><p class="eyebrow">A SMALL PIECE OF FOREVER</p><h2 id="heart-title">Tap the heart.<br><em>See what happens.</em></h2></div>
+      <button class="heart-button" id="heartButton" type="button" aria-label="Tap to reveal the love message"><canvas id="heartCanvas"></canvas><span class="heart-button__hint">TAP / CLICK</span></button>
+      <div class="heart-reveal" id="heartReveal" aria-live="polite"><p>I LOVE YOU</p><strong>UGWU EBUBE MIRACLE</strong></div>
+    </section>
+
+    <section class="scene scene--metric" id="scene-5" data-scene="05" aria-labelledby="metric-title">
+      <div class="scene-label">04 — LOVE METRIC</div>
+      <div class="metric-wrap"><div class="metric-intro"><p class="eyebrow">A COMPLETELY SCIENTIFIC READING</p><h2 id="metric-title">LOVE<br><em>LEVEL</em></h2></div><div class="metric-display"><div class="metric-number">100<span>%</span></div><div class="meter"><i></i></div><div class="metric-grid"><span>STATUS</span><b>COMPLETELY IN LOVE</b><span>STABILITY</span><b>∞</b><span>ERROR</span><b>Unable to calculate.</b></div><p class="metric-reason">Reason: too much love.</p></div></div>
+    </section>
+
+    <section class="scene scene--message" id="scene-6" data-scene="06" aria-labelledby="message-title">
+      <div class="scene-label">05 — PRIVATE MESSAGE</div>
+      <div class="message-card" id="messageCard"><div class="message-lock" id="messageLock" aria-hidden="true">⌑</div><p class="eyebrow">ENCRYPTED FOR ONE</p><h2 id="message-title">PRIVATE<br><em>MESSAGE</em></h2><p class="message-card__only">ONLY FOR EBUBE</p><button class="outline-button magnetic" id="unlockButton" type="button"><span>Unlock</span><b>↗</b></button><div class="letter" id="letter" aria-live="polite"></div></div>
+    </section>
+
+    <section class="scene scene--memory" id="scene-7" data-scene="07" aria-labelledby="memory-title">
+      <div class="scene-label">06 — ONE MORE THING</div>
+      <div class="memory-layout"><div class="memory-copy"><p class="eyebrow">SOMETHING TO KEEP</p><h2 id="memory-title">Some things are better<br><em>remembered</em> than explained.</h2><p>Add a photo to <code>assets/images/</code> and set <code>photoPath</code> in <code>script.js</code> when you are ready.</p></div><div class="photo-frame" id="photoFrame"><div class="photo-empty"><span>+</span><p>YOUR MOMENT<br><small>PHOTO MEMORY</small></p></div><div class="light-sweep"></div></div></div>
+    </section>
+
+    <section class="scene scene--final" id="scene-8" data-scene="08" aria-labelledby="final-title">
+      <div class="final-stars"></div><div class="final-copy" id="finalCopy"><p class="final-line" data-delay="0">IF YOU EVER FORGET...</p><p class="final-line" data-delay="1400">...COME BACK HERE.</p><p class="final-line final-line--small" data-delay="3000">Because you are loved.</p><p class="final-line final-line--large" data-delay="4700">VERY, VERY MUCH.</p><div class="final-signoff" data-delay="6400"><strong>UGWU EBUBE MIRACLE</strong><span>FOREVER YOURS, JUSTICE</span></div></div></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
